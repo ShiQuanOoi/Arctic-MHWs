@@ -78,7 +78,7 @@ for n = 1:length(loc_full) % 0 to 90E
     end    
 end
 
-%% Change matrix to table
+%% Create table array from matrix
 MHW_Annual_table = array2table(MHW_Annual, 'VariableNames', {'MHW_year', 'Frequency', 'Day', 'MeanDuration', 'MeanInt', 'MeanCumInt', 'MeanMaxInt', 'MeanVarInt', 'Longitude','Latitude'});
 
 %% Save MHW_Annual to directory path for further analysis
