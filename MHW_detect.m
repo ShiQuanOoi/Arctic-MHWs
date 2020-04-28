@@ -10,15 +10,15 @@
 %   downloaded from https://uk.mathworks.com/matlabcentral/fileexchange/64383-findnd
 
 
-%% Input needed:
+%% Input arguments:
 
-%   YYYYmmdd - Define start and end dates of the period 
+%   YYYYmmdd - Start and end dates of the period, (YYYY,MM,DD) 
 
-%   YYYY - Define start and end dates of the period
+%   YYYY - Start and end years of the period, (YYYY,MM,DD)
 
-%   lon_start - Define starting point of the area in longitude
+%   lon_start - Starting point of the area in longitude (0.125 to 359.875 degree)
 
-%   lat_start - Define starting point of the area in latitude
+%   lat_start - Starting point of the area in latitude (-89.875 to 89.875 degree)
 
 %   nLon - Define size of area, number of grids needed in longitude
 
