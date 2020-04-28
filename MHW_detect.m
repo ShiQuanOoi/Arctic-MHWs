@@ -24,7 +24,7 @@
 
 %   nLat - Define size of area, number of grids needed in latitude
 
-
+ 
 %% Output arguments:
 
 % % MHW_table - A table containing all detected MHW with where each row
