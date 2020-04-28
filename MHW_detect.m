@@ -12,24 +12,24 @@
 
 %% Input arguments:
 
-%   YYYYmmdd - Start and end dates of the period, (YYYY,MM,DD) 
+%  YYYYmmdd - Start and end dates of the period, (YYYY,MM,DD) 
 
-%   YYYY - Start and end years of the period, (YYYY,MM,DD)
+%  YYYY - Start and end years of the period, (YYYY,MM,DD)
 
-%   lon_start - Starting point of the area in longitude (0.125 to 359.875 degree)
+%  lon_start - Starting point of the area in longitude (0.125 to 359.875 degree)
 
-%   lat_start - Starting point of the area in latitude (-89.875 to 89.875 degree)
+%  lat_start - Starting point of the area in latitude (-89.875 to 89.875 degree)
 
-%   nLon - Define size of area, number of grids needed in longitude
+%  nLon - Define size of area, number of grids needed in longitude
 
-%   nLat - Define size of area, number of grids needed in latitude
+%  nLat - Define size of area, number of grids needed in latitude
 
 
 %% Output arguments:
 
-% % MHW_table - A table containing all detected MHW with where each row
-%   represents a single event and each column corresponds to a
-%   metric. MHW metrics are: 
+%  MHW_table - A table containing all detected MHWs where each row
+%               represents a single event and each column corresponds to a
+%               metric. MHW metrics are: 
 %       - 'MHW_Start' - start date of each event [YYYYMMDD]
 %       - 'MHW_End' - end date of each event [YYYYMMDD]
 %       - 'Duration' - duration of each event [days]
@@ -42,19 +42,19 @@
 %       - 'Longitude' - longitude of each event 
 %       - 'Latitude' - latitude of each event   
 
-% % MHW_All - A double precision matric array of MHW_table
+%  MHW_All - A double precision matric array of MHW_table
 
-% % SST_All = All SST data from the satellite record for the whole area and
+%  SST_All = All SST data from the satellite record for the whole area and
 %             whole study period in 4D matrix (lon by lat by 366 by year)
 
-% % SST_Mean = Climatological mean of SST_All in 3D matrix (lon by lat by 366)
+%  SST_Mean = Climatological mean of SST_All in 3D matrix (lon by lat by 366)
 
-% % SST_90 = Climatological 90th percentile threshold of SST_All in 3D matrix (lon by lat by 366)
+%  SST_90 = Climatological 90th percentile threshold of SST_All in 3D matrix (lon by lat by 366)
 
 
 % % Un-needed variables are deleted regularly to save memory in the
-% % workspace. Variables can be kept simply by disable the clearvars
-% % function
+%   workspace. Variables can be kept simply by disable the clearvars
+%   function
 
 
 
