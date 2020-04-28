@@ -2,8 +2,8 @@
 
 % % Code for detecting MHWs, including loading SST data, calculate
 %   climatological mean and threshold, recording every MHW in each
-%   location and calculate the duration [days], mean intensity [deg. C], maximum intensity [deg. C],
-%   cumulative intensity [deg. C] and intensity variability (standard deviation) [deg. C]
+%   location and calculate the duration, mean intensity, maximum intensity,
+%   cumulative intensity and intensity variability (standard deviation)
 %   of each MHW event
 
 % % An additional function, 'findND', written by Rik, is needed for calculation and can be
@@ -24,23 +24,23 @@
 
 %   nLat - Define size of area, number of grids needed in latitude
 
- 
+
 %% Output arguments:
 
 % % MHW_table - A table containing all detected MHW with where each row
 %   represents a single event and each column corresponds to a
-%   metric. MHW metrics are:
-%       - 'MHW_Start' - start date of each event
-%       - 'MHW_End' - end date of each event
-%       - 'Duration' - duration of each event
-%       - 'MaxInt' - maximum intensity of each event
-%       - 'MeanInt' - mean intensity of each event
-%       - 'VarInt' - variance of intensity during each event
-%       - 'CumInt' - cumulative intensity across each event
-%       - 'MHW_StartYr' - starting year of each event
-%       - 'MHW_EndYr' - ending year of each event
+%   metric. MHW metrics are: 
+%       - 'MHW_Start' - start date of each event [YYYYMMDD]
+%       - 'MHW_End' - end date of each event [YYYYMMDD]
+%       - 'Duration' - duration of each event [days]
+%       - 'MaxInt' - maximum intensity of each event [deg. C]
+%       - 'MeanInt' - mean intensity of each event [deg. C]
+%       - 'VarInt' - variance of intensity during each event [deg. C]
+%       - 'CumInt' - cumulative intensity across each event [deg. C]
+%       - 'MHW_StartYr' - starting year of each event [YYYY]
+%       - 'MHW_EndYr' - ending year of each event [YYYY]
 %       - 'Longitude' - longitude of each event 
-%       - 'Latitude' - latitude of each event 
+%       - 'Latitude' - latitude of each event   
 
 % % MHW_All - A double precision matric array of MHW_table
 
