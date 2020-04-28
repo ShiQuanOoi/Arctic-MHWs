@@ -12,9 +12,9 @@
 
 %% Input arguments:
 
-%  YYYYmmdd - Start and end dates of the period, (YYYY,MM,DD) 
+%  YYYYmmdd - Start and end dates of the period (YYYY,MM,DD) 
 
-%  YYYY - Start and end years of the period, (YYYY,MM,DD)
+%  YYYY - Start and end years of the period (YYYY,MM,DD)
 
 %  lon_start - Starting point of the area in longitude (0.125 to 359.875 degree)
 
@@ -42,7 +42,7 @@
 %       - 'Longitude' - longitude of each event 
 %       - 'Latitude' - latitude of each event   
 
-%  MHW_All - A double precision matric array of MHW_table
+%  MHW_All - A double precision matrix array of MHW_table
 
 %  SST_All = All SST data from the satellite record for the whole area and
 %             whole study period in 4D matrix (lon by lat by 366 by year)
