@@ -20,16 +20,16 @@
 
 %  lat_start - Starting point of the area in latitude (-89.875 to 89.875 degree)
 
-%  nLon - Define size of area, number of grids needed in longitude
+%  nLon - Define the size of the study area, number of grids needed in longitude
 
-%  nLat - Define size of area, number of grids needed in latitude
+%  nLat - Define the size of the study area, number of grids needed in latitude
 
 
 %% Output arguments:
 
 %  MHW_table - A table containing all detected MHWs where each row
-%               represents a single event and each column corresponds to a
-%               metric. MHW metrics are: 
+%  represents a single event and each column corresponds to a
+%  metric. MHW metrics are: 
 %       - 'MHW_Start' - start date of each event [YYYYMMDD]
 %       - 'MHW_End' - end date of each event [YYYYMMDD]
 %       - 'Duration' - duration of each event [days]
