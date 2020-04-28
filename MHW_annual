@@ -14,7 +14,7 @@
 
 %% Output arguments:
 
-%  MHW_Annual_table - A table array containing the annual averaged metrics
+%  MHW_Annual_table - A table array containing the yearly averaged metrics
 %  of MHWs where each row represents the annual averaged MHW metrics of one
 %  location of a certain year. The averaged MHW metrics include:
 %       - 'MHW_year' - one of the years during the study period [YYYY]
