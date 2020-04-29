@@ -70,6 +70,10 @@ loc_full = unique(MHW_All(:,10:11),'rows');
 %% Selects 4 metrics for analysis (frequency, total days, duration and mean intensity)
 MHW_metrics = MHW_Annual(:,2:5);
 
+
+
+
+
 %% 1. MHW averaged metrics over 30 years
 MHW_30yearsMean = [];
 
@@ -92,6 +96,10 @@ MHW_30yearsMean_table = array2table(MHW_30yearsMean,'VariableNames', {'Average_F
 clearvars -except MHW_All MHW_Annual MHW_30yearsMean_table loc_full MHW_metrics
 
 
+
+
+
+
 %% 2. Linear trends of MHW metrics by year
 MHW_Trend = [];
 
@@ -112,6 +120,10 @@ MHW_Trend_table = array2table(MHW_Trend,'VariableNames', {'T_Frequency','T_Day',
 
 % Clear un-needed variables
 clearvars -except MHW_All MHW_Annual MHW_30yearsMean_table MHW_Trend_table loc_full 
+
+
+
+
 
 
 %% 3. Differences of MHW metrics between 1983-1997 and 1998-2012 periods
@@ -154,6 +166,10 @@ MHW_MeanDiff_table = array2table(MHW_MeanDiff,'VariableNames', {'Diff_Frequency'
 
 % Clear un-needed variables
 clearvars -except MHW_All MHW_Annual MHW_30yearsMean_table MHW_Trend_table MHW_MeanDiff_table 
+
+
+
+
 
 
 %% 4. Area-weighted averaged time series of annual MHW metrics
@@ -267,6 +283,10 @@ clearvars -except MHW_All MHW_Annual MHW_30yearsMean_table MHW_Trend_table MHW_M
     
 
 
+
+
+
+
 %% 5. Histogram of frequency of each MHW duration between 1983-1997 and 1998-2012 periods
 
 % Find durations of all MHWs
@@ -298,6 +318,10 @@ clearvars -except MHW_All MHW_Annual MHW_30yearsMean_table MHW_Trend_table MHW_M
     FrequencyOfDuration_pre98 FrequencyOfDuration_post98 duration_full
 
 
+
+
+
+
 %% 6. Survivorship analysis on the frequency of each MHW duration between 1983-1997 and 1998-2012 periods
 
 % Calculate cumulative frequency of the durations for two periods, 1983-1997 and 1998-2012
@@ -317,6 +341,10 @@ legend('Pre-1998','Post-1998')
 
 % Clear un-needed variables
 clearvars -except MHW_All MHW_Annual MHW_30yearsMean_table MHW_Trend_table MHW_MeanDiff_table 
+
+
+
+
 
 
 
