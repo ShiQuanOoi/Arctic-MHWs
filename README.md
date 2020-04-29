@@ -13,9 +13,9 @@ The codes are seperated into 3 MATLAB scripts to generate the results of MHWs de
 
 |File                 |Description|
 |---------------------|-----------|
-|MHW_detect.m         |Detection of MHWs, which includes loading OISST data, calculations of the climatological mean and threshold, recording every MHW in each location and calculate the duration, mean intensity, maximum intensity, cumulative intensity and intensity variability (standard deviation) of each MHW event|
-|MHW_annual.m         |Documentation folder|
-|MHW_analysis.m       |Software license information|
+|MHW_detect.m         |Detects the MHWs, which includes loading OISST data, calculations of the climatological mean and threshold, recording every MHW in each location and calculations of the metrics (duration, mean intensity, maximum intensity, cumulative intensity and intensity variability) of each MHW event|
+|MHW_annual.m         |Calculates the averaged metrics of MHWs by years for each location|
+|MHW_analysis.m       |Analyses the MHW frequency, total days, duration and mean intensity of all the detected events. Analysis include MHW averaged metrics over 30 years, linear trends of the MHW metrics, differences of the MHW metrics between 1983-1997 and 1998-2012, area-weighted averaged time series of annual MHW metrics, histogram and survivorship analysis on the frequency of each MHW duration between 1983-1997 and 1998-2012 periods and frequency of long MHWs (MHW duration more than 14days)|
 
 
 # Acknowledgement
