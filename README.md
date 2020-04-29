@@ -1,4 +1,4 @@
-# Detect 
+# Marine Heatwaves detection code 
 
 
 Codes were written for BSc Marine Science 4th year student dissertation project on mapping marine heatwaves in the Arctic region.The study was aimed to study the characteristics of MHWs in the region north of 60°N latitude from 1983 to 2012 (30 years). The codes are seperated into 3 parts:
