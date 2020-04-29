@@ -28,10 +28,22 @@ The codes are seperated into 3 MATLAB scripts to generate the results of MHWs de
 
 # Reference
 
+Hobday, A.J. et al. (2016) A hierarchical approach to defining marine
+heatwaves. Progress in Oceanography, 141, pp. 227-238 https://doi.org/10.1016/j.pocean.2015.12.014
+
+Oliver E. C. J. (2015) Marine Heatwaves detection code. Available at: https://github.com/ecjoliver/marineHeatWaves
+
+Schlegel, R. W. and Smit, A. J, (2018) heatwaveR: A central algorithm for the detection of heatwaves and cold-spells. The Journal of Open Source Software, 3, p.821  https://doi.org/10.21105/joss.00821
+
+Zhao, Z. and Marin, M. (2019) A MATLAB toolbox to detect and analyze marine heatwaves. Journal of Open Source Software, 4(33), 1124, https://doi.org/10.21105/joss.01124
+
 # Contact
 
 Shi Quan Ooi
+
 The Scottish Association for Marine Science,
-University of the Highlands and Islands,
+
+University of the Highlands and Islands
+
 <17002380@uhi.ac.uk> 
 
