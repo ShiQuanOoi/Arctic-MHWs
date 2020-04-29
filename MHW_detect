@@ -1,10 +1,13 @@
 %% Description
 
-% % Code for detecting MHWs, including loading SST data, calculate
+% % The code for detecting marine heatwaves (MHWs), including loading SST data, calculate
 %   climatological mean and threshold, recording every MHW in each
 %   location and calculate the duration, mean intensity, maximum intensity,
 %   cumulative intensity and intensity variability (standard deviation)
-%   of each MHW event
+%   of each MHW event. 
+
+% % The code is based on the MHW definition proposed by Hobday et al. (2016) 'A hierarchical 
+    approach to defining marine heatwaves', Progress in Oceanography, 141, p227-238.
 
 % % An additional function, 'findND', written by Rik, is needed for calculation and can be
 %   downloaded from https://uk.mathworks.com/matlabcentral/fileexchange/64383-findnd
